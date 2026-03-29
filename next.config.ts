@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  devIndicators: {
+    // @ts-ignore - Next.js 15 property mismatch
+    buildActivity: false,
+    // @ts-ignore
+    appIsrStatus: false,
+  },
 };
 
 export default nextConfig;
