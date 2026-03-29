@@ -16,7 +16,6 @@ export default function SideQuests() {
       description:
         "Vision-based sign language translation system, bridging gesture and digital text.",
       hoverColor: "#10b981",
-      // ADD YOUR LINKS HERE
       links: {
         source: "https://github.com/yourusername/asl-project",
         live: "https://asl-demo.vercel.app",
@@ -43,7 +42,7 @@ export default function SideQuests() {
       title: "Doppelganger",
       tech: ["Scikit-Learn", "Python", "Pandas", "PyTorch"],
       description:
-        "IT operations solution for banking sector to detect and prevent system anomalies.",
+        "Applies sentiment analysis to identify which fictional character most commonalities are shared with.",
       hoverColor: "#f43f5e",
       links: {
         source: "https://github.com/suyu101/doppelganger2.0",
