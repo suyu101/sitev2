@@ -25,14 +25,14 @@ export default function SideQuests() {
       id: "auction",
       year: "2026",
       index: "02",
-      title: "Live Auction Hub",
+      title: "Auction Noir",
       tech: ["Next.js", "Supabase", "Node.js", "Tailwind"],
       description:
         "High-concurrency bidding platform focused on low-latency synchronization.",
       hoverColor: "#f59e0b",
       links: {
         source: "https://github.com/suyu101/auction",
-        live: "https://auction-demo.vercel.app",
+        live: "https://auction-noir.vercel.app",
       },
     },
     {
